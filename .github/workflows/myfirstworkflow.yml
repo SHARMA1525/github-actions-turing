@@ -1,0 +1,10 @@
+name: Print Hello World
+
+on:
+  push:
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: ech0 "Hello World"
